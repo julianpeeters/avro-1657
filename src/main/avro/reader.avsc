@@ -1,0 +1,17 @@
+{ 
+    "type":"record",
+    "name": "MyRecord",
+    "namespace": "com.example",
+    "aliases": [".MyRecord"],
+    "fields":[
+        {
+            "type":"string",
+            "name":"Name"
+        },
+        {
+            "type":"double",
+            "name":"TemperatureC",
+            "aliases": ["Temperature"]
+        }
+     ]
+}
