@@ -1,2 +1,1 @@
-# avro-1658
-AVRO-1658 demonstration code
+Issues writing and reading namespace-less schemas from namespaced Specific Records.
