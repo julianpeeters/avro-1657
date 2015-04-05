@@ -1,0 +1,21 @@
+{ 
+    "type":"record",
+    "name": "TestUnionNested",
+    "fields":[
+        {
+            "name":"a",
+            "type":["null",
+                {
+                    "type":"record",
+                    "name":"Test",
+                    "fields":[
+                       {
+                        "name":"x",
+                        "type":"int"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
