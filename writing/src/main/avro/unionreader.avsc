@@ -1,0 +1,23 @@
+{ 
+    "type":"record",
+    "name": "TestUnionNested",
+    "namespace": "com.example",
+    "fields":[
+        {
+            "name":"a",
+            "type":["null",
+                {
+                    "type":"record",
+                    "name":"Test",
+                    "fields":[
+                       {
+                        "name":"x",
+                        "type":"int"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

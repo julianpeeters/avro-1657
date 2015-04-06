@@ -1,0 +1,22 @@
+{ 
+    "type":"record",
+    "name": "TestUnionNested",
+    "aliases":["com.example.TestUnionNested", ".TestUnionNested"],
+    "fields":[
+        {
+            "name":"a",
+            "type":["null",
+                {
+                    "type":"record",
+                    "name":"Test",
+                    "fields":[
+                       {
+                        "name":"x",
+                        "type":"int"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
